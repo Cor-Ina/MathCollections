@@ -2,16 +2,16 @@
 :root {
     /* colors */
     --clr-dark: hsla(238, 29%, 17%, 1);
-    --clr-question-gray: hsla(237, 12%, 33%, 1);
+    --clr-prompt-gray: hsla(237, 12%, 33%, 1);
     --clr-answer-gray: hsla(240, 6%, 50%, 1);
     --clr-border-gray: #E8E8EA;
     --clr-orange: hsla(14, 88%, 65%, 1);
 
     /* font-sizes */
     --fs-title: 3.2rem;
-    --fs-problem: 1.7rem;
-    --fs-prompt: 1.3rem;
-    --fs-answer: 1.2rem;
+    --fs-problem: 2rem;
+    --fs-prompt: 1.8rem;
+    --fs-answer: 1.7rem;
 }
 
 body {
@@ -19,7 +19,8 @@ body {
     min-height: 100vh;
     position: relative;
     display: grid;
-    place-items: center;
+    padding-top: 5rem;
+    padding-bottom: 25rem;
 }
 
 html {
