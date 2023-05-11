@@ -1,0 +1,131 @@
+.text-container {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+  border-radius: 23px;
+  padding-top: 13.2rem; 
+  padding-inline: 2.4rem;
+  
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.question-container:last-child {
+  margin-bottom: 5.2rem;
+}
+
+.question label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--clr-border-gray);
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 1.5rem;
+  height: 1rem;
+}
+
+*:focus-visible {
+  outline: 3px solid rgb(33, 33, 33);
+  outline-offset: 4px;
+  outline-style: dashed;
+}
+
+.question:hover {
+  color: var(--clr-orange);
+}
+
+.checkbox:checked ~ .question {
+  font-weight: 700;
+  color: var(--clr-dark);
+}
+
+.checkbox:checked ~ .question .arrow {
+  transform: rotate(180deg);
+}
+
+.checkbox:checked ~ .answer {
+  display: block;
+  width: 90%;
+}
+
+/* ------------------------------ 500px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 500px) {
+  .text-container {
+    padding-inline: 4.2rem;
+  }
+}
+
+
+/* ------------------------------ 550px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 550px) {
+  .text-container {
+    padding-top: 20rem;
+  }
+}
+
+/* ------------------------------ 600px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 600px) {
+  .text-container {
+    padding-inline: 5.2rem;
+  }
+
+}
+
+/* ------------------------------ 1000px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1000px) {
+  body {
+    padding-inline: 5rem;
+  }
+
+  .text-container {
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    padding-top: 9rem;
+    padding-left: 3rem;
+    display: flex;
+    align-items: self-start;
+  }
+
+  .question-container {
+    width: 30rem;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+}
+
+/* ------------------------------ 1300px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1300px) {
+  .question-container {
+    width: 33rem;
+  }
+}
+
+/* ------------------------------ 1400px ------------------------------- */
+/* -------------------------------------------------------------------- */
+@media (min-width: 1400px) {
+  .text-container {
+    padding-left: 7rem;
+  }
+  
+  .question-container {
+    width: 36rem;
+  }
+}
