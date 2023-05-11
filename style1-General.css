@@ -9,20 +9,17 @@
 
     /* font-sizes */
     --fs-title: 3.2rem;
-    --fs-question: 1.3rem;
+    --fs-problem: 1.7rem;
+    --fs-prompt: 1.3rem;
     --fs-answer: 1.2rem;
 }
 
 body {
     width: 100%;
-    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
     min-height: 100vh;
     position: relative;
     display: grid;
-    grid-template-rows: auto min-content;
-    padding-top: 14.8rem;
+    place-items: center;
 }
 
 html {
@@ -49,41 +46,5 @@ img {
     display: block;
 }
 
-
-
-/************************************ 500px ***********************************/
-@media (min-width: 500px) { 
-    :root {
-        --fs-question: 1.4rem;
-    }
-}
-
-/* ------------------------------ 550px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 550px) {
-    body {
-      padding-top: 21rem;
-    }
-}
-
-/* ------------------------------ 1000px ------------------------------- */
-/* -------------------------------------------------------------------- */
-@media (min-width: 1000px) {
-    body {
-      align-items: center;
-      grid-template-rows: 13rem auto 13rem;
-      padding-top: 0;
-      height: 100%;
-    }
-}
-
-
-/********************************************** 1440px *******************************/
-@media (min-width: 1440px) {
-    body {
-      max-width: 1440px;
-      margin-inline: auto;
-    }
-} 
 
 

@@ -11,16 +11,23 @@
   border: 0;
 }
 
-.text-dark {
+.text-dark-large {
   color: var(--clr-dark);
   font-size: var(--fs-title);
   font-weight: 700;
   line-height: 4rem;
 }
 
-.text-question-gray {
+.text-dark-small {
+  color: var(--clr-dark);
+  font-size: var(--fs-problem);
+  font-weight: 700;
+  line-height: 4rem;
+}
+
+.text-prompt-gray {
   color: var(--clr-question-gray);
-  font-size: var(--fs-question);
+  font-size: var(--fs-prompt);
   font-weight: 400;
   line-height: 1.6rem;
 }
